@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Project 2 - Rock Paper Scissors game</title>
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
-        <h1>Rock Paper Scissors</h1>
+        <h1>Rock Paper Scissors </h1>
     </header>
     
-    <div class="scoreBoard">scoreBoard
+    <div class="scoreBoard">
         <div id="player-label" class="label">Player</div>
-        <div id="comp-label" class="computer">Computer</div>
-        <span id="player-score">0</span>:<span id="computer-score">0</span>
+        <div id="comp-label" class="label">Computer</div>
+        <span id="player-score">0</span>-<span id="computer-score">0</span>
     </div>
 
-    <div class="result">
-        <p>Paper covers rock. You win!</p>
+    <div class="outcome">
+        <p>Begin!</p>
     </div>
 
-    <div id="rock" class="choices">
-        <div class="choice">
-            <img src="RPS_Images/rock.jpg" alt="">
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="RPS_Images/rock.png" alt="" width="100">
         </div>
 
-        <div id="paper" class="choice">
-            <img src="RPS_Images/paper.jpg" alt="">
+        <div class="choice"  id="p" >
+            <img src="RPS_Images/paper.png" alt="" width="100">
         </div>
 
-        <div id="scissors" class="choice">
-            <img src="RPS_Images/scissors.jpg" alt="">
+        <div class="choice" id="s" >
+            <img src="RPS_Images/scissors.png" alt="" width="100">
         </div>
 
     </div>
-<p id="choice-message">Your turn</p>
-
-
-
-
-
-
-
-
+<p id="choice-message">Your turn </p> 
+<p2 id="Created by"> Hunnie Zadi</p>
 </body>
 </html>
