@@ -32,20 +32,20 @@ function win(playerSelection, computerOutput) {
     playerScore++;
     playerScore_span.innerText = playerScore;
     computerScore_span.innerText = computerScore;
-    outcome_p.innerText = `${convert(playerSelection)} (Player) beats ${convert(computerOutput)} (Comp). You Win!`;
+    outcome_p.innerText = `${convert(playerSelection)} (Player) beats ${convert(computerOutput)} (Comp). \n You Win!`;
 }
 
 function lose(playerSelection, computerOutput) {
     computerScore++;
     playerScore_span.innerText = playerScore;
     computerScore_span.innerText = computerScore;
-    outcome_p.innerText = `${convert(playerSelection)} (Player) loses to ${convert(computerOutput)} (Comp). You Lose!`;
+    outcome_p.innerText = `${convert(playerSelection)} (Player) loses to ${convert(computerOutput)} (Comp). \n You Lose!`;
 }
 
 function draw(playerSelection, computerOutput) {
     playerScore_span.innerText = playerScore;
     computerScore_span.innerText = computerScore;
-    outcome_p.innerText = `${convert(playerSelection)} (Player) equals ${convert(computerOutput)} (Comp). It's a Draw!`;
+    outcome_p.innerText = `${convert(playerSelection)} (Player) equals ${convert(computerOutput)} (Comp). \n It's a Draw!`;
 }
 
 // Function to play the game
