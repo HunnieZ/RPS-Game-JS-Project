@@ -1,1 +1,1 @@
-Created a retro themed Rock, Paper, Scissors game. This utilised HTML, CSS, and JavaScript functionality.
+This is a more complex retro themed Rock, Paper, Scissors game utilising HTML, CSS, and JavaScript functionality. The idea is to generate a random number which equates to the computer output, which in turn makes a 'choice'. This is compared against the player's selection and ultimately leads to a win, lose or draw final score. Inspired by freecodecamp.
