@@ -1,14 +1,12 @@
 * {
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
     font-family: "Lobster Two", sans-serif;
     font-weight: 700;
 }
 
 body {
     background-color: darkcyan;
-
 }
 
 header {
@@ -93,7 +91,52 @@ header h1 {
 p2 {
     display: flex;
     justify-content: center;
-    align-content: flex-end;
+    align-content: center;
     font-size: xx-small;
     color: palevioletred;
+}
+
+#restart-button {
+    background-color: lightgoldenrodyellow;
+    color: turquoise;
+    border-radius: 20px;
+}
+
+/* Media Queries Below: */
+
+/* TABLET 1024 px */
+@media (max-width: 1024px) {
+.choice:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+    border-radius: 50%;
+}
+
+}
+
+
+/* LOW-RES TABLET 767 px
+@media (max-width: 767 px) {} */
+
+/* MOBILE  480px */
+@media (max-width: 480px) {
+#player-label {
+    margin-left: 55px;
+    position: absolute;
+    top: -20px;
+    left: -25px;
+}
+    
+#comp-label {
+        margin-right: 55px;
+        position: absolute;
+        top: -20px;
+        right: -25px;
+}
+
+.choice:hover {
+        cursor: pointer;
+        background-color: darkcyan;
+        border-radius: 50%;
+}
 }
