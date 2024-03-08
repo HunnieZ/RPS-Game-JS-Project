@@ -74,9 +74,6 @@ header h1 {
 
 .choice:hover {
     cursor: pointer;
-    background-color: purple;
-    border-radius: 50%;
-
 }
 
 #choice-message {
@@ -105,14 +102,7 @@ p2 {
 /* Media Queries Below: */
 
 /* TABLET 1024 px */
-@media (max-width: 1024px) {
-.choice:hover {
-    cursor: pointer;
-    background-color: darkcyan;
-    border-radius: 50%;
-}
-
-}
+/* @media (max-width: 1024px) {} */
 
 
 /* LOW-RES TABLET 767 px
@@ -132,11 +122,4 @@ p2 {
         position: absolute;
         top: -20px;
         right: -25px;
-}
-
-.choice:hover {
-        cursor: pointer;
-        background-color: darkcyan;
-        border-radius: 50%;
-}
 }
