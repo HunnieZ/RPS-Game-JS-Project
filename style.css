@@ -110,16 +110,70 @@ p2 {
 
 /* MOBILE  480px */
 @media (max-width: 480px) {
+* {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+header {
+        margin: 0 auto;
+        padding: 0px auto;
+    }
+.scoreBoard {
+    max-width: 70%;
+        position: relative;
+        border: 3px solid lightgoldenrodyellow;
+        border-radius: 20px;
+        margin: 20px auto;
+        padding: 15px 20px;
+        color: turquoise;
+        text-align: center;
+        font-size: 40px;
+}
+    
 #player-label {
     margin-left: 55px;
     position: absolute;
     top: -20px;
-    left: -25px;
+    left: -30px;
 }
     
 #comp-label {
         margin-right: 55px;
         position: absolute;
         top: -20px;
-        right: -25px;
+        right: -30px;
+}
+.outcome {
+ 
+    color: turquoise;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+
+.choice {
+    width: 30px;
+    height: 30px;
+}
+
+#restart-button {
+    background-color: lightgoldenrodyellow;
+    color: turquoise;
+    border-radius: 20px;
+    font-size: small;
+}
+
+
+
+
+
+
+
 }
